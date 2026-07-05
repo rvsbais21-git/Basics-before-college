@@ -19,6 +19,8 @@ int main() {
         cout << a/b;
     } else if (c=='R') {
         cout << a%b;
+    } else {
+        cout << "Invalid Input, rerun program.";
     }
     return 0;
 }
