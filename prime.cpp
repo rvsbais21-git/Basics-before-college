@@ -10,7 +10,7 @@ int main (){
    int q,n,i=1,s=0;
     cout<< "Enter the number: ";
    cin>> n ;
-   while (n>1) {
+   while (n>1,i<=n) {
     
     if ( n%i == 0) {
         i++;
