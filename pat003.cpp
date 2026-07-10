@@ -16,8 +16,8 @@ int n,i,a=1,q;
 
     for (n,i=1;i<=n;i++) {
 
-        for (n,q=1;q<=n;q++) {
-            cout<< a << " ";
+        for (n,q=1;q<=i;q++) {
+            cout<< "* ";
             a++;
         }
         cout <<endl;
